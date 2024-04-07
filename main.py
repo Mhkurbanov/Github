@@ -1,3 +1,5 @@
+from serf import main
+x = main()
 def plus(a, b):
     return a+b
 
@@ -10,3 +12,4 @@ def minus(a, b):
 if __name__ == "__main__":
     print(plus(23, 46))
     print(minus(80, 45))
+    print(x)
